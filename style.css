@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+   font-family: "Nunito",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.pexels.com/photos/10251064/pexels-photo-10251064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.container header{
+    font-size: 50px;
+    font-family: Roboto, system-ui, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    position: absolute;
+    left: 40%;
+    top: 25%;
+}
+
+.container input{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    height: 40px;
+    width: 620px;
+    border: hidden;
+    padding: 0 75px;
+    border-radius: 30px ;
+    font-size: 15px;
+    font-weight: 200;
+}
+.search-icon{
+    position: absolute;
+    left: 31.5%;
+    top: 41%;
+    height: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: #fff;
+    border: hidden;
+}
+.user-profile{
+    position: absolute;
+    right: 13px;
+    top: 10px;
+    height: 30px;
+    width: 30px;
+    background: rgb(86, 221, 86);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;    
+}
+.user-wraper{
+    display: auto;
+    position: fixed;
+    left: 57%;
+    top: 30px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .3s ease-in-out;
+}
+.user-box{
+background: rgb(53, 52, 52);
+    color: #f2e6f2;
+position: relative;
+left: 75%;
+top: 50px;
+height: 350px;
+width: 350px;
+border: none;
+padding: 10px 30px;
+transition: all .3s ease-in-out;
+}
+.user-box .close{
+   position: absolute;
+   left: 90%;
+   height: 30px;
+   width: 30px;
+   font-size: 20px;
+   cursor: pointer;
+   background: none;
+   border: none;
+   color: #fff;
+}
+.user-box .close:hover{
+    color: aqua;
+}
+.user-box .h3-user{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 6.5;
+
+}
+.user-box #user-input{
+    width: 300px;
+    position: absolute;
+    left: 25px;
+    top: 80px;
+   border-radius: 4px;
+   border: none;
+   padding: 0 10px;
+}
+
+.user-box .h3-Email{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 4.5;
+
+}
+#user-email{
+    width: 300px;
+    position: absolute;
+    left: 25px;
+    top: 160px;
+   border-radius: 4px;
+   border: none;
+   padding: 0 10px;
+}
+.user-box .h3-password{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 300;
+    line-height: 5.5;
+}
+.user-box #user-password{
+    width: 300px;
+    position: absolute;
+    left: 25px;
+    top: 230px;
+    border-radius: 4px;
+    border: none;
+   padding: 0 10px;
+}
+.user-box .user-sign-in{
+    height: 40px;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(5, 163, 5);
+    position: absolute;
+    left: 40%;
+    top: 83%;
+    cursor: pointer;
+}
+.user-active{
+    opacity: 1;
+    pointer-events: auto;
+}
+    .gmail{
+    position: absolute;
+    right: 11%;
+    top: 20px;
+    font-size: 13px;
+    font-weight: 100 ;
+    color: #fff;
+}
+.images{
+    position: absolute;
+    right: 7%;
+    top: 20px;
+    font-size: 13px;
+    font-weight: 100 ;
+    color: #f2e6f2;
+    outline: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.gmail-icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 46%;
+    bottom: 43%;
+    border-radius: 50%;
+    border: none;
+}
+.gmail-inbox{
+  position: absolute;
+  left: 46.4%;
+  bottom: 40%;
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: 200;
+  color: #fff;
+}
+.add-icon{
+    position: absolute;
+    left: 52%;
+    bottom: 43%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.add-shortcut{
+    position: absolute;
+    left: 51.2%;
+    bottom: 40%;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #fff;
+    
+}
+.h3-add{
+ padding: 10px 20px;
+ color: #fff;
+ font-size: 15px;
+ font-family: sans-serif;
+ font-weight: 200;
+}
+.shortcut-wraper{
+    position: fixed;
+    left: 300px;
+    top: 300px;
+    display: auto;
+    opacity: 0;
+    pointer-events: none;
+transition: all .3s ease-in-out;
+}
+.shortcut-container{
+   position: relative;
+   left: 40%;
+   top: 40%;
+   height: 300px;
+   width: 500px;
+   background: rgb(48, 47, 47);
+   border-radius: 10px;
+   transition: all .3s ease-in-out;
+}
+.shortcut-container .add-input{
+ width: 450px;
+ height: 40px;
+ position: absolute;
+ left: 20px;
+ top: 70px;
+ border: none;
+ border-radius: 4px;
+ padding: 0 10px;
+}
+.shortcut-container .add-input-url{
+    width: 450px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    border: none;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.shortcut-container .add-name{
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(15, 15, 15);
+}
+.shortcut-container .url{
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: rgb(15, 15, 15);
+}
+.shortcut-container .submit{
+    position: absolute;
+    left: 82%;
+    top: 80%;
+    height: 30px;
+    width: 70px;
+    background: rgb(48, 47, 47);
+    cursor: pointer;
+}
+.shortcut-container .cancel{
+    position: absolute;
+    top: 80%;
+    left: 65%;
+    height: 30px;
+    width: 70px;
+    background: rgb(48, 47, 47);
+    color: black;
+    cursor: pointer;
+}
+.shortcut-container .cancel:hover{
+    background: red;
+}
+.active{
+    opacity: 1;
+    pointer-events: auto;
+}
